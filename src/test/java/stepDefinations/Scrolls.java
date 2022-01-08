@@ -23,6 +23,7 @@ public class Scrolls {
 	    driver = new ChromeDriver();
 	    driver.get("https://www.news18.com/");
 	    driver.manage().window().maximize();
+	    System.out.println("Sanjeeb");
 	    
 	}
 
