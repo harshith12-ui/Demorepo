@@ -24,6 +24,7 @@ public class Scrolls {
 	    driver.get("https://www.news18.com/");
 	    driver.manage().window().maximize();
 	    
+	    
 	}
 
 	@When("^user scroll till end of footer of Home Page and top of Home page$")
