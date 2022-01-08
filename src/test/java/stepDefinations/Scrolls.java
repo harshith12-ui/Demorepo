@@ -26,6 +26,9 @@ public class Scrolls {
 	    driver.manage().window().maximize();
 	    System.out.println("Sanjeeb");
 	    
+	    
+	    System.out.println("Vipin");
+	    
 	}
 
 	@When("^user scroll till end of footer of Home Page and top of Home page$")
