@@ -24,6 +24,7 @@ public class Scrolls {
 	    driver.get("https://www.news18.com/");
 	    System.out.println("Danish");
 	    driver.manage().window().maximize();
+	    System.out.println("Sanjeeb");
 	    
 	}
 
