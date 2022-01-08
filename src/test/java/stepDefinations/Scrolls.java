@@ -22,7 +22,12 @@ public class Scrolls {
 		WebDriverManager.chromedriver().setup();
 	    driver = new ChromeDriver();
 	    driver.get("https://www.news18.com/");
+	    System.out.println("Danish");
 	    driver.manage().window().maximize();
+	    System.out.println("Sanjeeb");
+	    
+	    
+	    System.out.println("Vipin");
 	    
 	}
 
