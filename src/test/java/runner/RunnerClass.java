@@ -10,6 +10,9 @@ import cucumber.api.junit.Cucumber;
 
 public class RunnerClass {
 	
+	Hi
+	
+	
 	//it should Combine both feature file and stepdefination
 
 }
