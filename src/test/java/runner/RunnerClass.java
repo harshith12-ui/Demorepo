@@ -49,7 +49,7 @@
                 "cnt_STA",
                 "cnt_TOSCANA",
                 "cnt_VCM",
-                "cnt_SATECH"
+                "cnt_SAITECH"
             ],
             "properties": {
                 "cnt_TRA": {
@@ -57,7 +57,7 @@
                     "default": "",
                     "title": "The cnt_TRA Schema",
                     "examples": [
-                        "0"
+                        "122"
                     ]
                 },
                 "cnt_BRQ": {
@@ -339,17 +339,17 @@
                         "0"
                     ]
                 },
-                "cnt_SATECH": {
+                "cnt_SAITECH": {
                     "type": "string",
                     "default": "",
-                    "title": "The cnt_SATECH Schema",
+                    "title": "The cnt_SAITECH Schema",
                     "examples": [
                         "1"
                     ]
                 }
             },
             "examples": [{
-                "cnt_TRA": "0",
+                "cnt_TRA": "122",
                 "cnt_BRQ": "0",
                 "cnt_GCS": "0",
                 "cnt_LMS": "0",
@@ -386,13 +386,13 @@
                 "cnt_TOSCANA": "0",
                 "cnt_PMS": "0",
                 "cnt_VCM": "0",
-                "cnt_SATECH": "1"
+                "cnt_SAITECH": "1"
             }]
         }
     },
     "examples": [{
         "d": {
-            "cnt_TRA": "0",
+            "cnt_TRA": "122",
             "cnt_BRQ": "0",
             "cnt_GCS": "0",
             "cnt_LMS": "0",
@@ -429,7 +429,7 @@
             "cnt_TOSCANA": "0",
             "cnt_PMS": "0",
             "cnt_VCM": "0",
-            "cnt_SATECH": "1"
+            "cnt_SAITECH": "1"
         }
     }]
 }
