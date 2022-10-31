@@ -1,5 +1,5 @@
 
-
+https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/GetDetailedRecords
 https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/CountApprovalLeftForApplicationColection{
     "$schema": "https://json-schema.org/draft/2019-09/schema",
     "$id": "http://example.com/example.json",
