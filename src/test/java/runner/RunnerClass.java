@@ -1,6 +1,6 @@
 
-https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/GetDetailedRecords
-https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/CountApprovalLeftForApplicationColection{
+https://myapprovalqa.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/CountApprovalLeftForApplicationColection
+{
     "$schema": "https://json-schema.org/draft/2019-09/schema",
     "$id": "http://example.com/example.json",
     "type": "object",
@@ -15,15 +15,15 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
             "default": {},
             "title": "The d Schema",
             "required": [
-                "cnt_GCS",
-                "cnt_TARMAC",
                 "cnt_BRQ",
+                "cnt_GCS",
                 "cnt_LMS",
                 "cnt_TAS",
                 "cnt_PIPB",
                 "cnt_SM",
                 "cnt_SR",
                 "cnt_SPS",
+                "cnt_TARMAC",
                 "cnt_ITIME",
                 "cnt_AAM",
                 "cnt_AAI",
@@ -34,7 +34,6 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                 "cnt_ACT",
                 "cnt_ESS",
                 "cnt_ESOP",
-                "cnt_EMS",
                 "cnt_FM",
                 "cnt_GIS",
                 "cnt_IRFS",
@@ -55,26 +54,18 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                 "cnt_TRA"
             ],
             "properties": {
-                "cnt_GCS": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The cnt_GCS Schema",
-                    "examples": [
-                        "9"
-                    ]
-                },
-                "cnt_TARMAC": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The cnt_TARMAC Schema",
-                    "examples": [
-                        "1"
-                    ]
-                },
                 "cnt_BRQ": {
                     "type": "string",
                     "default": "",
                     "title": "The cnt_BRQ Schema",
+                    "examples": [
+                        "0"
+                    ]
+                },
+                "cnt_GCS": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The cnt_GCS Schema",
                     "examples": [
                         "0"
                     ]
@@ -123,6 +114,14 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                     "type": "string",
                     "default": "",
                     "title": "The cnt_SPS Schema",
+                    "examples": [
+                        "0"
+                    ]
+                },
+                "cnt_TARMAC": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The cnt_TARMAC Schema",
                     "examples": [
                         "0"
                     ]
@@ -203,14 +202,6 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                     "type": "string",
                     "default": "",
                     "title": "The cnt_ESOP Schema",
-                    "examples": [
-                        "0"
-                    ]
-                },
-                "cnt_EMS": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The cnt_EMS Schema",
                     "examples": [
                         "0"
                     ]
@@ -361,15 +352,15 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                 }
             },
             "examples": [{
-                "cnt_GCS": "9",
-                "cnt_TARMAC": "1",
                 "cnt_BRQ": "0",
+                "cnt_GCS": "0",
                 "cnt_LMS": "0",
                 "cnt_TAS": "0",
                 "cnt_PIPB": "0",
                 "cnt_SM": "0",
                 "cnt_SR": "0",
                 "cnt_SPS": "0",
+                "cnt_TARMAC": "0",
                 "cnt_ITIME": "0",
                 "cnt_AAM": "0",
                 "cnt_AAI": "0",
@@ -380,7 +371,6 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
                 "cnt_ACT": "0",
                 "cnt_ESS": "0",
                 "cnt_ESOP": "0",
-                "cnt_EMS": "0",
                 "cnt_FM": "0",
                 "cnt_GIS": "0",
                 "cnt_IRFS": "0",
@@ -404,15 +394,15 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
     },
     "examples": [{
         "d": {
-            "cnt_GCS": "9",
-            "cnt_TARMAC": "1",
             "cnt_BRQ": "0",
+            "cnt_GCS": "0",
             "cnt_LMS": "0",
             "cnt_TAS": "0",
             "cnt_PIPB": "0",
             "cnt_SM": "0",
             "cnt_SR": "0",
             "cnt_SPS": "0",
+            "cnt_TARMAC": "0",
             "cnt_ITIME": "0",
             "cnt_AAM": "0",
             "cnt_AAI": "0",
@@ -423,7 +413,6 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
             "cnt_ACT": "0",
             "cnt_ESS": "0",
             "cnt_ESOP": "0",
-            "cnt_EMS": "0",
             "cnt_FM": "0",
             "cnt_GIS": "0",
             "cnt_IRFS": "0",
