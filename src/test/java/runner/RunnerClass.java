@@ -1,7 +1,6 @@
-JSONError: Unexpected token '<' at 1:1 <!DOCTYPE html> ^
-https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/CountApprovalLeftForApplicationColection
-https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodCollection.aspx/GetDetailedRecords
-"$schema": "https://json-schema.org/draft/2019-09/schema",
+var schema = {
+  "definitions" : {},
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
     "$id": "http://example.com/example.json",
     "type": "object",
     "default": {},
@@ -435,3 +434,10 @@ https://myapprovalhcl.eds-appase-dev.appserviceenvironment.net/Design/WebMethodC
         }
     }]
 }
+pm.test('Schema is valid', function () {
+    var result=tv4.validateResult(pm.response.json(),schema);
+    if(!result.valid){
+        console.log(result);
+    }
+    pm.expect(result.valid).to.be.true;
+});
